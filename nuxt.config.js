@@ -32,11 +32,18 @@ export default {
     "@nuxt/typescript-build",
     // https://composition-api.nuxtjs.org/getting-started/setup#quick-start
     "@nuxtjs/composition-api/module",
+    "@pinia/nuxt",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
+  modules: ["@pinia/nuxt"],
+  pinia: {
+    autoImports: [
+      // automatically imports `defineStore`
+      "defineStore", // import { defineStore } from 'pinia'
+      ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
+    ],
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {
