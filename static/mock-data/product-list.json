@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "2535651d-d3a1-4bc8-98de-f5ead6cda08e",
+    "category": "X",
+    "description": "Ea cillum culpa esse ad nisi. Quis adipisicing fugiat amet dolore duis ad velit nisi reprehenderit id voluptate in anim exercitation. Fugiat id nisi velit in laboris aute reprehenderit nulla duis pariatur elit labore do. Tempor adipisicing non laboris reprehenderit elit dolore. Pariatur eu excepteur dolore qui sint magna consequat Lorem velit nisi officia aliqua.\r\n",
+    "discount": {
+      "status": true,
+      "value": 66
+    },
+    "isActive": false,
+    "name": "laborum eiusmod consequat",
+    "picture": "https://picsum.photos/700/700?random=488",
+    "price": 87.6316,
+    "stock": 14
+  },
+  {
+    "id": "830ae690-81e5-437c-9e06-697ebfe36f79",
+    "category": "F",
+    "description": "Ad deserunt culpa velit aute ex dolore eiusmod eu. Qui fugiat proident dolor sit. Eiusmod qui et id laboris fugiat incididunt cupidatat qui. Dolor sit minim aliqua magna sint amet ullamco. Est enim magna deserunt officia do anim irure commodo deserunt cillum.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "aliqua nostrud deserunt",
+    "picture": "https://picsum.photos/700/700?random=99",
+    "price": 254.9944,
+    "stock": 11
+  },
+  {
+    "id": "be951365-36f9-4be1-9ebb-5a2e246727a4",
+    "category": "I",
+    "description": "Nostrud voluptate nisi veniam quis Lorem ipsum tempor sit voluptate aute occaecat aliqua. Lorem est esse dolor non voluptate sit officia laboris cupidatat mollit sunt dolore elit. Exercitation Lorem voluptate aliqua ex incididunt quis sit nostrud. Est sint labore et dolor est esse pariatur aute elit sint. Anim nisi dolor sit id. Ea veniam ad veniam nostrud laboris laboris ea. Sunt irure labore laboris veniam nostrud sit mollit Lorem do anim Lorem ea.\r\n",
+    "discount": {
+      "status": true,
+      "value": 77
+    },
+    "isActive": false,
+    "name": "Lorem voluptate voluptate",
+    "picture": "https://picsum.photos/700/700?random=879",
+    "price": 80.3837,
+    "stock": 2
+  },
+  {
+    "id": "43c3ce1c-ec7b-44ad-b149-2aa564dcad3b",
+    "category": "J",
+    "description": "Ex eu nulla adipisicing eu in ipsum officia dolor ipsum ut do elit sint. Ut eiusmod nulla aute qui. Quis laboris ad tempor consectetur commodo dolore elit elit et. Ex commodo adipisicing amet Lorem incididunt tempor nulla sint eiusmod pariatur tempor. Ipsum ut id qui aliquip reprehenderit incididunt laborum ex fugiat enim duis ex anim. Ipsum nostrud ipsum anim eiusmod reprehenderit do laborum.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "aliqua anim ut",
+    "picture": "https://picsum.photos/700/700?random=776",
+    "price": 21.03,
+    "stock": 10
+  },
+  {
+    "id": "5ad75c73-12cc-4e6a-96ed-cc06baf31070",
+    "category": "X",
+    "description": "Elit qui nisi ea deserunt ad veniam pariatur consectetur aliquip id veniam. Duis fugiat velit non ipsum mollit ullamco ut. Consectetur sint eu elit ipsum exercitation laborum adipisicing consequat incididunt labore. Ex consectetur adipisicing tempor mollit labore deserunt velit amet laboris. Minim qui dolore occaecat nulla sint ut occaecat excepteur. Adipisicing sunt irure excepteur sint minim duis sunt cupidatat magna aliquip.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "ex veniam sunt",
+    "picture": "https://picsum.photos/700/700?random=575",
+    "price": 228.7391,
+    "stock": 8
+  },
+  {
+    "id": "44f17d47-15dd-4f34-9b70-4b69e66d4889",
+    "category": "M",
+    "description": "Anim in ipsum dolore mollit ut eu eu nulla sunt consequat labore. Aliquip eu voluptate amet aute culpa sint voluptate nisi fugiat. Dolore laboris proident tempor eiusmod ullamco proident officia.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "cupidatat est nulla",
+    "picture": "https://picsum.photos/700/700?random=184",
+    "price": 123.8879,
+    "stock": 14
+  },
+  {
+    "id": "3b0e0359-f1ba-4a4d-b60b-6c418b335545",
+    "category": "D",
+    "description": "Aliqua quis voluptate proident reprehenderit adipisicing occaecat. Tempor dolor culpa incididunt proident. Magna exercitation occaecat occaecat magna duis elit anim occaecat.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "proident quis qui",
+    "picture": "https://picsum.photos/700/700?random=932",
+    "price": 344.4864,
+    "stock": 18
+  },
+  {
+    "id": "934e8ac9-40f6-4718-ac64-4e9da1401b67",
+    "category": "Ñ",
+    "description": "Irure laboris ipsum ad cillum commodo nostrud cillum elit qui irure qui eu. Nulla aliqua nulla adipisicing do elit nisi pariatur laborum aliqua proident ad consequat exercitation mollit. Mollit ut ad dolor laboris veniam occaecat sint quis exercitation consectetur nulla eiusmod. Cupidatat voluptate mollit nisi amet anim dolore excepteur veniam. Excepteur tempor qui dolore voluptate ea est.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "elit laborum sunt",
+    "picture": "https://picsum.photos/700/700?random=474",
+    "price": 343.8606,
+    "stock": 11
+  },
+  {
+    "id": "0193631f-2b6e-4d27-8a41-31420b2f5eef",
+    "category": "Z",
+    "description": "Veniam velit aliquip laborum consequat reprehenderit cillum laboris qui cupidatat laboris amet minim deserunt voluptate. Excepteur est est pariatur nisi culpa exercitation ullamco non sunt occaecat consequat. Eu sint exercitation proident eu occaecat duis labore amet ex velit.\r\n",
+    "discount": {
+      "status": true,
+      "value": 8
+    },
+    "isActive": true,
+    "name": "cillum non velit",
+    "picture": "https://picsum.photos/700/700?random=227",
+    "price": 340.209,
+    "stock": 14
+  },
+  {
+    "id": "6b16d356-c931-4867-a01f-67be6ef8ed79",
+    "category": "C",
+    "description": "Est aliqua enim ex reprehenderit ullamco commodo minim et dolor amet. Duis ullamco est quis sunt. Exercitation incididunt ipsum duis sunt incididunt sunt in aliqua ad Lorem id. Proident commodo velit ex fugiat minim aliqua proident sint. Qui proident amet labore do et sunt amet ut consequat officia est nostrud fugiat irure. Eiusmod eiusmod occaecat tempor dolore dolore ex minim pariatur pariatur mollit nostrud ex reprehenderit anim. Veniam minim nisi aliquip ex minim qui adipisicing.\r\n",
+    "discount": {
+      "status": true,
+      "value": 75
+    },
+    "isActive": false,
+    "name": "do quis aliqua",
+    "picture": "https://picsum.photos/700/700?random=597",
+    "price": 364.6191,
+    "stock": 19
+  },
+  {
+    "id": "f19eb00e-5ffb-4c71-8ba7-da7def5d5d29",
+    "category": "G",
+    "description": "Voluptate voluptate ea ipsum ut. Dolor laboris in in Lorem non non enim Lorem ad excepteur officia sunt. Eu laborum aute aliqua ut sit sit enim sunt amet laborum velit non. Excepteur reprehenderit sit ut ex in labore et do mollit pariatur. Quis aliqua ad id officia reprehenderit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "cupidatat mollit laborum",
+    "picture": "https://picsum.photos/700/700?random=198",
+    "price": 275.8582,
+    "stock": 17
+  },
+  {
+    "id": "9a15b5ad-992d-45e8-9cf9-8ed1ccb4d10c",
+    "category": "I",
+    "description": "Consectetur aute pariatur laboris duis eu ullamco qui sunt aute in consectetur in. Quis consectetur adipisicing minim dolore et nisi qui dolore proident. Officia et non eiusmod pariatur.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "tempor voluptate minim",
+    "picture": "https://picsum.photos/700/700?random=997",
+    "price": 61.3761,
+    "stock": 2
+  },
+  {
+    "id": "f60ca05c-56f7-4363-9df0-166266ab6b35",
+    "category": "R",
+    "description": "Voluptate labore nisi sint ad incididunt do non reprehenderit aute nisi est sunt. Mollit cillum commodo in amet. Sit ipsum dolore tempor nostrud pariatur sit labore aliquip sit magna.\r\n",
+    "discount": {
+      "status": true,
+      "value": 64
+    },
+    "isActive": true,
+    "name": "qui aliquip cillum",
+    "picture": "https://picsum.photos/700/700?random=527",
+    "price": 274.3258,
+    "stock": 6
+  },
+  {
+    "id": "fd961af1-2acc-4eec-bc9b-f9a385539381",
+    "category": "P",
+    "description": "Adipisicing esse labore ad cupidatat ipsum cupidatat eiusmod nostrud Lorem nostrud veniam adipisicing laboris. Magna laboris Lorem quis ad esse quis in sit nulla laboris. Tempor ea duis excepteur dolore cupidatat ad culpa voluptate. Excepteur laboris tempor nisi quis. Sunt elit velit magna sit officia. Cupidatat aliqua dolore nisi ullamco incididunt voluptate occaecat labore consectetur. Anim irure dolore est Lorem ut.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "nulla exercitation reprehenderit",
+    "picture": "https://picsum.photos/700/700?random=443",
+    "price": 36.1572,
+    "stock": 18
+  },
+  {
+    "id": "10140f11-3746-4ad6-95ea-a2556c7d15e5",
+    "category": "Ñ",
+    "description": "Duis cupidatat commodo consequat deserunt ea eu officia est cupidatat fugiat commodo laborum ut. Quis cillum velit id proident cupidatat proident enim veniam fugiat est aute exercitation. Cupidatat minim minim voluptate aute. Enim ullamco cillum non pariatur. Esse elit sit aliqua laborum fugiat laboris id dolore. Ipsum ad ut consectetur incididunt in eu dolor id dolore do reprehenderit.\r\n",
+    "discount": {
+      "status": true,
+      "value": 53
+    },
+    "isActive": true,
+    "name": "et labore cillum",
+    "picture": "https://picsum.photos/700/700?random=628",
+    "price": 328.3938,
+    "stock": 12
+  },
+  {
+    "id": "6fb34297-a2e3-4aa2-a076-c8799e1e7924",
+    "category": "T",
+    "description": "Aliqua sint laborum commodo voluptate sint dolor aliquip. Dolore velit mollit irure elit excepteur voluptate laborum voluptate anim cupidatat. Ut Lorem aute consectetur voluptate labore veniam duis sunt. Ad ad voluptate occaecat laborum incididunt laborum velit ad ut irure sunt velit pariatur Lorem. Eu ut veniam veniam aliqua officia quis. Ea consequat ut voluptate do ea. Ipsum excepteur nisi dolore qui adipisicing aute culpa.\r\n",
+    "discount": {
+      "status": true,
+      "value": 22
+    },
+    "isActive": true,
+    "name": "minim ut consequat",
+    "picture": "https://picsum.photos/700/700?random=885",
+    "price": 85.9234,
+    "stock": 20
+  },
+  {
+    "id": "600083f7-1a6b-4655-8a0a-75ef45c72041",
+    "category": "K",
+    "description": "Eiusmod fugiat elit elit consequat minim nulla cupidatat. Veniam officia labore cupidatat elit proident fugiat nostrud laborum amet tempor. Dolor laboris enim exercitation esse velit do laboris commodo velit irure eiusmod veniam amet.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "cupidatat non nisi",
+    "picture": "https://picsum.photos/700/700?random=622",
+    "price": 22.0016,
+    "stock": 1
+  },
+  {
+    "id": "32a0dc5e-69f6-40dc-a822-b9fe7a977d83",
+    "category": "U",
+    "description": "Cupidatat magna occaecat amet commodo sunt mollit eu anim. In do amet quis deserunt et. Lorem et fugiat nisi eu occaecat ad et eiusmod aute elit minim minim aute. Irure proident aliqua occaecat et ipsum.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "nostrud commodo velit",
+    "picture": "https://picsum.photos/700/700?random=186",
+    "price": 291.8333,
+    "stock": 19
+  },
+  {
+    "id": "3c6027e3-8c3b-47ce-ad24-5bf503c5546f",
+    "category": "G",
+    "description": "Reprehenderit reprehenderit mollit sit laboris amet commodo proident. Ex laborum consequat eu ullamco dolor velit mollit. Reprehenderit esse quis cupidatat culpa mollit. Esse labore adipisicing culpa pariatur id ullamco laborum ex Lorem enim. Nostrud ullamco nulla eiusmod est aute commodo labore sit ea consequat excepteur pariatur esse. Sit aliqua minim ex mollit laboris pariatur incididunt voluptate pariatur officia id consequat.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "ipsum quis ullamco",
+    "picture": "https://picsum.photos/700/700?random=25",
+    "price": 16.3678,
+    "stock": 2
+  },
+  {
+    "id": "45510f4f-d5fe-48c1-8237-fd8a29d24246",
+    "category": "J",
+    "description": "Fugiat dolore laborum commodo sint sunt magna. Anim excepteur exercitation incididunt culpa minim ea exercitation sint aute id. Amet aliquip eu anim minim pariatur do laboris anim ipsum magna officia Lorem velit. In reprehenderit eu cillum ipsum voluptate irure culpa cillum. Amet sunt aliqua excepteur quis deserunt et ad ipsum ullamco. Id minim minim cillum elit elit irure qui cillum cillum Lorem. Sunt occaecat dolor qui occaecat do incididunt sunt aute deserunt sunt reprehenderit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "ex ut proident",
+    "picture": "https://picsum.photos/700/700?random=782",
+    "price": 97.6996,
+    "stock": 12
+  },
+  {
+    "id": "25ca63fc-01b0-464d-b2e1-22746feb1fb8",
+    "category": "R",
+    "description": "Magna elit adipisicing fugiat id occaecat officia ipsum. Amet laborum ut reprehenderit est aliqua laboris ut nisi ad esse est reprehenderit. Magna aliquip irure est in aute sit sit nisi sint exercitation. Culpa enim labore excepteur aliqua minim do duis. Ea est nostrud velit cillum irure eu labore laboris sit excepteur labore laboris consectetur qui. Exercitation magna velit et sunt sunt dolore. Deserunt non et exercitation anim exercitation occaecat magna aliquip commodo ipsum ipsum pariatur.\r\n",
+    "discount": {
+      "status": true,
+      "value": 76
+    },
+    "isActive": true,
+    "name": "minim cillum velit",
+    "picture": "https://picsum.photos/700/700?random=184",
+    "price": 197.4917,
+    "stock": 7
+  },
+  {
+    "id": "d4524eb9-6eac-4d5b-8190-13c5256f024b",
+    "category": "F",
+    "description": "Eu magna et cupidatat qui dolor duis culpa. Sunt officia sint laborum eu exercitation minim elit mollit cillum sunt ullamco ex. Deserunt irure amet ut proident cillum nulla duis esse id proident ullamco. Consectetur qui mollit nostrud irure magna commodo mollit. Eu duis duis aute veniam duis. Sint exercitation occaecat est elit irure.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "velit ut quis",
+    "picture": "https://picsum.photos/700/700?random=811",
+    "price": 67.4944,
+    "stock": 19
+  },
+  {
+    "id": "ac866bed-24d1-4b1c-add3-b6fe6d80d585",
+    "category": "Q",
+    "description": "Qui culpa esse fugiat tempor fugiat occaecat labore eiusmod occaecat occaecat commodo cillum ut dolor. Adipisicing minim veniam ipsum veniam nisi sit consectetur dolore amet enim aliqua laborum culpa. Reprehenderit non aliquip amet aliqua duis in exercitation non. Voluptate nisi Lorem et esse velit dolor consequat. Sunt Lorem anim adipisicing nostrud anim pariatur incididunt fugiat eu. Eiusmod duis commodo anim cupidatat aute nulla. Non sunt magna eiusmod laborum.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "irure duis quis",
+    "picture": "https://picsum.photos/700/700?random=288",
+    "price": 235.1192,
+    "stock": 18
+  },
+  {
+    "id": "65bf4084-9c93-472b-81cb-aed59500c7f2",
+    "category": "S",
+    "description": "Exercitation aliquip duis consequat ut exercitation ipsum elit anim nisi incididunt. Laboris labore adipisicing minim occaecat deserunt non magna eu dolore voluptate. Anim duis eiusmod anim aliquip elit laborum Lorem culpa nulla magna eu mollit veniam. Exercitation quis nostrud id ullamco id non.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "voluptate nulla laboris",
+    "picture": "https://picsum.photos/700/700?random=512",
+    "price": 229.5449,
+    "stock": 2
+  },
+  {
+    "id": "077cbc6b-4b12-4de4-bfc2-551f9c6e10c6",
+    "category": "Ñ",
+    "description": "Eu est nulla sunt sunt ex duis adipisicing fugiat culpa. Nostrud aliquip deserunt Lorem laboris enim. Anim cupidatat cupidatat deserunt do occaecat duis. Lorem consequat cupidatat sint laborum proident amet aliqua.\r\n",
+    "discount": {
+      "status": true,
+      "value": 71
+    },
+    "isActive": false,
+    "name": "exercitation labore dolor",
+    "picture": "https://picsum.photos/700/700?random=477",
+    "price": 185.789,
+    "stock": 16
+  },
+  {
+    "id": "53f101d8-9c09-48a3-95c2-b01028c2dde2",
+    "category": "W",
+    "description": "Irure ullamco ullamco duis amet ex eu. Ut voluptate id id duis eu nulla incididunt pariatur. Minim consequat consectetur duis cillum laboris culpa. Irure commodo adipisicing tempor minim voluptate et consectetur cillum.\r\n",
+    "discount": {
+      "status": true,
+      "value": 2
+    },
+    "isActive": true,
+    "name": "occaecat cillum quis",
+    "picture": "https://picsum.photos/700/700?random=602",
+    "price": 7.7662,
+    "stock": 5
+  },
+  {
+    "id": "1b287505-660a-4647-b0d0-8a222f4ba2b9",
+    "category": "R",
+    "description": "Reprehenderit dolore deserunt eu in qui minim do est veniam Lorem et ullamco. Excepteur proident elit velit officia ea non et. Cillum cillum dolore ut consectetur. Labore tempor in magna occaecat consectetur non deserunt nostrud ea. Magna sint velit incididunt do duis. Adipisicing fugiat excepteur consectetur fugiat adipisicing tempor enim non aliqua cupidatat ea aute nisi.\r\n",
+    "discount": {
+      "status": true,
+      "value": 72
+    },
+    "isActive": true,
+    "name": "ea ullamco sit",
+    "picture": "https://picsum.photos/700/700?random=117",
+    "price": 262.3988,
+    "stock": 19
+  },
+  {
+    "id": "a9e065cf-b08f-48e4-9a63-34fb1db13ae3",
+    "category": "U",
+    "description": "Excepteur ipsum anim deserunt adipisicing esse. Minim incididunt eiusmod culpa mollit. Exercitation amet do deserunt occaecat dolor sunt labore quis amet fugiat. Amet minim cillum sunt pariatur sit minim. Ad aliqua exercitation aute labore. Eu magna ullamco amet sit cupidatat id nostrud cupidatat laborum. Occaecat amet et do dolore cillum nulla aliquip consectetur nisi tempor amet laboris.\r\n",
+    "discount": {
+      "status": true,
+      "value": 21
+    },
+    "isActive": false,
+    "name": "ullamco dolor labore",
+    "picture": "https://picsum.photos/700/700?random=787",
+    "price": 288.9368,
+    "stock": 18
+  },
+  {
+    "id": "be162e9d-204c-4b82-a513-4855fcf61c0f",
+    "category": "Ñ",
+    "description": "Ea Lorem deserunt consectetur consequat cupidatat. Excepteur mollit labore nulla consequat magna velit tempor sunt aute proident aute sunt tempor cupidatat. Do officia ullamco sint eu reprehenderit non ipsum nulla in amet mollit mollit. Sit non incididunt eu deserunt aliqua irure adipisicing cupidatat elit minim.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "in do duis",
+    "picture": "https://picsum.photos/700/700?random=325",
+    "price": 149.1563,
+    "stock": 9
+  },
+  {
+    "id": "42684159-d1d5-4a26-803f-f9d4a52dff8e",
+    "category": "G",
+    "description": "Sint ut sint adipisicing minim ullamco ut amet laborum. Commodo ipsum nostrud voluptate pariatur anim laborum aute. Adipisicing aliqua tempor irure culpa eu minim. Qui do pariatur anim quis esse.\r\n",
+    "discount": {
+      "status": true,
+      "value": 44
+    },
+    "isActive": false,
+    "name": "sint sit nostrud",
+    "picture": "https://picsum.photos/700/700?random=417",
+    "price": 345.5414,
+    "stock": 18
+  },
+  {
+    "id": "9609907a-995e-428d-91f4-4edc4153c6fd",
+    "category": "C",
+    "description": "In irure occaecat sint reprehenderit esse commodo ipsum exercitation anim ut ut nulla quis. Dolore nostrud ut aute irure fugiat nostrud voluptate quis incididunt. Cillum culpa duis nostrud laborum aute nisi sit. Anim ipsum exercitation sint eiusmod Lorem cupidatat proident ad elit voluptate ea officia laboris.\r\n",
+    "discount": {
+      "status": true,
+      "value": 38
+    },
+    "isActive": false,
+    "name": "et aliquip qui",
+    "picture": "https://picsum.photos/700/700?random=80",
+    "price": 49.3409,
+    "stock": 10
+  },
+  {
+    "id": "287d29fb-872f-4f62-8c99-a47d9410efb4",
+    "category": "Y",
+    "description": "Ex officia cupidatat officia id eiusmod Lorem voluptate cillum labore commodo qui cillum amet. Qui culpa non irure Lorem incididunt consequat ut ad ullamco veniam mollit ullamco adipisicing eiusmod. Nulla et reprehenderit officia do consectetur duis tempor. Consequat consectetur aliquip cillum nostrud occaecat enim irure nulla esse anim. Amet enim dolor nostrud do incididunt aliquip in adipisicing.\r\n",
+    "discount": {
+      "status": true,
+      "value": 68
+    },
+    "isActive": true,
+    "name": "Lorem cupidatat incididunt",
+    "picture": "https://picsum.photos/700/700?random=120",
+    "price": 83.1373,
+    "stock": 18
+  },
+  {
+    "id": "d4e478f3-eacd-40e4-ad42-57d23f631339",
+    "category": "M",
+    "description": "Nulla nisi elit voluptate exercitation Lorem officia laborum qui est. Deserunt commodo fugiat aute elit irure amet incididunt aute enim amet laboris et. Ullamco ex elit aliquip nulla anim minim proident incididunt minim.\r\n",
+    "discount": {
+      "status": true,
+      "value": 71
+    },
+    "isActive": true,
+    "name": "adipisicing sunt sunt",
+    "picture": "https://picsum.photos/700/700?random=549",
+    "price": 386.1661,
+    "stock": 9
+  },
+  {
+    "id": "41f2d58d-6aed-4262-9804-c7206edaba57",
+    "category": "Y",
+    "description": "Ex labore ipsum incididunt sit qui proident qui culpa ad non est consectetur. Irure sunt ex amet do pariatur culpa mollit consectetur. Magna consequat voluptate id in eiusmod nulla. Pariatur reprehenderit Lorem velit id dolor irure consequat est velit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "ullamco non nostrud",
+    "picture": "https://picsum.photos/700/700?random=272",
+    "price": 184.2167,
+    "stock": 16
+  },
+  {
+    "id": "521bc382-8243-4205-b239-0eb285276f4f",
+    "category": "P",
+    "description": "Proident non commodo officia cillum Lorem eu commodo quis occaecat elit tempor. Fugiat duis nisi aliquip sunt nisi quis. Nulla fugiat et qui magna quis voluptate et fugiat ipsum exercitation commodo.\r\n",
+    "discount": {
+      "status": true,
+      "value": 17
+    },
+    "isActive": false,
+    "name": "enim sit deserunt",
+    "picture": "https://picsum.photos/700/700?random=989",
+    "price": 357.224,
+    "stock": 17
+  },
+  {
+    "id": "b44171be-ee6e-4efd-a776-b00eae910d73",
+    "category": "R",
+    "description": "Reprehenderit dolore aliquip aliqua duis eiusmod. Velit occaecat veniam id voluptate velit commodo incididunt nisi mollit Lorem et ad excepteur ad. Occaecat est qui ea reprehenderit ut magna et ea et ullamco in pariatur adipisicing. Veniam id occaecat esse et amet adipisicing exercitation culpa nulla et dolor nulla pariatur. Et occaecat ad tempor velit. Esse ipsum commodo nulla aliquip ipsum ullamco id aliquip culpa velit dolore qui consequat consequat. Eu veniam Lorem cillum amet dolore ut.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "ad consectetur deserunt",
+    "picture": "https://picsum.photos/700/700?random=579",
+    "price": 261.8432,
+    "stock": 3
+  },
+  {
+    "id": "277c9b6f-5989-4867-8f96-56f1f7bbbf69",
+    "category": "K",
+    "description": "Ea exercitation pariatur ea aliqua fugiat laboris irure culpa tempor. Ex magna irure nostrud Lorem non. Sint occaecat sit nostrud elit. Ea dolore aute id reprehenderit pariatur magna incididunt ut amet occaecat dolor ut ad. Adipisicing voluptate esse eu duis ea id nisi ex.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "consectetur dolor id",
+    "picture": "https://picsum.photos/700/700?random=431",
+    "price": 383.0216,
+    "stock": 14
+  },
+  {
+    "id": "a0bb98af-780a-4150-878f-8467d9fde49e",
+    "category": "C",
+    "description": "Ad ut anim tempor cupidatat dolor proident enim officia magna reprehenderit quis elit. Qui qui proident esse occaecat minim dolor aute ipsum do amet elit. Et duis sunt sunt magna reprehenderit incididunt aute eu aliquip pariatur voluptate eiusmod consectetur.\r\n",
+    "discount": {
+      "status": true,
+      "value": 91
+    },
+    "isActive": false,
+    "name": "aute ut nulla",
+    "picture": "https://picsum.photos/700/700?random=37",
+    "price": 255.0131,
+    "stock": 19
+  },
+  {
+    "id": "3717a191-0d53-470e-88d1-6f07af8fa609",
+    "category": "D",
+    "description": "Duis enim incididunt in aute. Labore aute culpa laboris Lorem et non enim tempor anim nostrud velit qui. Non nisi exercitation exercitation velit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "dolore ut veniam",
+    "picture": "https://picsum.photos/700/700?random=69",
+    "price": 37.5191,
+    "stock": 3
+  },
+  {
+    "id": "ccec6b98-c415-428e-a02d-1770a49f588a",
+    "category": "D",
+    "description": "Sint amet mollit do ex dolor proident exercitation ea excepteur. Reprehenderit ipsum Lorem ea aliquip. Velit amet amet et esse eiusmod minim sint irure et. In magna do labore id do. Ipsum proident excepteur laboris dolore pariatur est.\r\n",
+    "discount": {
+      "status": true,
+      "value": 68
+    },
+    "isActive": false,
+    "name": "amet labore adipisicing",
+    "picture": "https://picsum.photos/700/700?random=84",
+    "price": 203.6406,
+    "stock": 14
+  },
+  {
+    "id": "392437b2-19ee-4517-b92e-17cdec34f860",
+    "category": "R",
+    "description": "Duis fugiat esse ipsum officia nostrud Lorem tempor. Consequat reprehenderit sit eu ut aliqua anim proident ullamco id do adipisicing. Excepteur sunt ut reprehenderit occaecat tempor esse excepteur anim ex laboris sit consectetur cupidatat. Qui nisi nulla id Lorem Lorem magna esse aliquip et Lorem sit anim deserunt. Officia culpa excepteur magna labore.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "velit nisi aute",
+    "picture": "https://picsum.photos/700/700?random=196",
+    "price": 237.9446,
+    "stock": 11
+  },
+  {
+    "id": "fc46f820-61ef-4882-9625-4040bb3d64f1",
+    "category": "G",
+    "description": "Cillum commodo tempor in eiusmod excepteur cupidatat tempor nulla tempor et nulla velit. Exercitation sint quis ad aute minim velit eu qui dolore dolor nisi exercitation. Ut labore cillum velit anim anim. Ut minim cupidatat nisi duis ut. Consequat commodo velit in nostrud velit minim esse nulla laboris qui et aute exercitation ex. Adipisicing velit ex tempor fugiat. Ipsum nulla occaecat excepteur elit reprehenderit velit nostrud.\r\n",
+    "discount": {
+      "status": true,
+      "value": 61
+    },
+    "isActive": false,
+    "name": "sunt dolore cupidatat",
+    "picture": "https://picsum.photos/700/700?random=423",
+    "price": 228.172,
+    "stock": 5
+  },
+  {
+    "id": "45b18af3-963b-44b8-ad1f-7a4a5c2180f8",
+    "category": "X",
+    "description": "Nostrud consectetur non ea nostrud minim ex sint aute fugiat proident adipisicing nisi ullamco aute. Sunt nulla ut ea minim anim labore sunt commodo ea aliqua sunt occaecat. Consequat non occaecat nostrud eu nisi nostrud tempor elit pariatur reprehenderit commodo eu.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "magna ullamco nisi",
+    "picture": "https://picsum.photos/700/700?random=72",
+    "price": 355.2015,
+    "stock": 11
+  },
+  {
+    "id": "8f46e57f-5d33-4d82-9b62-8d80fcb507a1",
+    "category": "J",
+    "description": "Aliquip pariatur id veniam deserunt exercitation anim minim. Sit adipisicing sunt eiusmod eu nisi anim aliqua est. Enim labore in consequat incididunt reprehenderit in incididunt nostrud mollit anim ex ad ex tempor. Nisi elit mollit eiusmod aliquip consequat nisi. Irure anim in nisi Lorem consequat proident voluptate ullamco aliqua veniam laborum. Occaecat ut incididunt magna reprehenderit ullamco aliqua non esse aute qui laborum sunt. Sint reprehenderit duis mollit ex ad excepteur nulla non dolore nisi aute.\r\n",
+    "discount": {
+      "status": true,
+      "value": 96
+    },
+    "isActive": false,
+    "name": "aliquip qui Lorem",
+    "picture": "https://picsum.photos/700/700?random=7",
+    "price": 122.9567,
+    "stock": 12
+  },
+  {
+    "id": "9ebc2f5d-dbf7-440b-82a2-8b44fb6e1cde",
+    "category": "H",
+    "description": "Lorem cupidatat pariatur eu deserunt ad ea aliqua incididunt. Elit fugiat culpa voluptate reprehenderit dolor est in mollit reprehenderit culpa. Id commodo magna excepteur sunt ut id sit amet duis laborum nostrud in. Velit non ea excepteur nostrud est aliquip consectetur fugiat deserunt.\r\n",
+    "discount": {
+      "status": true,
+      "value": 73
+    },
+    "isActive": false,
+    "name": "exercitation eu Lorem",
+    "picture": "https://picsum.photos/700/700?random=271",
+    "price": 399.1165,
+    "stock": 9
+  },
+  {
+    "id": "3ff58951-9e43-4769-b63b-2657d3690f91",
+    "category": "H",
+    "description": "Ad elit adipisicing occaecat eiusmod velit sit veniam mollit qui ipsum do Lorem. Pariatur ullamco tempor aliqua fugiat ea. Ipsum incididunt qui sunt non sint ipsum ea incididunt officia ipsum consectetur labore. Aliquip deserunt ut aliquip excepteur aute in tempor ea aliqua commodo. Occaecat laboris duis consequat velit cupidatat officia enim irure amet esse aliqua anim.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "mollit quis laboris",
+    "picture": "https://picsum.photos/700/700?random=655",
+    "price": 192.197,
+    "stock": 16
+  },
+  {
+    "id": "5c7a296b-36a7-4bf0-b930-cb406656bcc6",
+    "category": "J",
+    "description": "Anim sint dolor dolor proident nostrud Lorem ipsum velit. Anim ex do exercitation sunt ex excepteur elit. Sit duis amet ad esse laboris nostrud velit consectetur laborum qui laborum laborum do labore. Non fugiat eiusmod id velit cillum officia. Tempor non voluptate mollit cupidatat veniam officia elit aute mollit qui non veniam reprehenderit elit. Nulla labore non aliqua occaecat deserunt eiusmod. Consequat veniam ad esse Lorem dolor ex Lorem laboris ut irure ea elit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "qui ullamco quis",
+    "picture": "https://picsum.photos/700/700?random=65",
+    "price": 327.4698,
+    "stock": 17
+  },
+  {
+    "id": "141e66db-19b1-43f7-87fb-ffa8e0648415",
+    "category": "H",
+    "description": "Eiusmod eu exercitation nisi nisi dolore ipsum aliquip sunt. Duis reprehenderit dolore ad cupidatat quis aliquip veniam ex laborum ipsum deserunt consequat. Velit excepteur exercitation sit proident aliqua amet tempor irure ea id in sint quis. Duis reprehenderit qui fugiat dolore nisi. Incididunt culpa occaecat enim mollit veniam nostrud anim mollit quis. Est esse laboris officia duis laborum.\r\n",
+    "discount": {
+      "status": true,
+      "value": 4
+    },
+    "isActive": false,
+    "name": "ea consectetur amet",
+    "picture": "https://picsum.photos/700/700?random=466",
+    "price": 165.9949,
+    "stock": 12
+  },
+  {
+    "id": "594a75df-0c13-49dc-a897-041035efdb67",
+    "category": "Ñ",
+    "description": "Sit incididunt officia laborum pariatur eu sint in pariatur deserunt. Veniam sint consectetur sunt cupidatat cillum fugiat ex cupidatat excepteur et exercitation laborum elit. Esse fugiat aliqua consequat consectetur veniam officia dolore ut mollit.\r\n",
+    "discount": {
+      "status": true,
+      "value": 28
+    },
+    "isActive": false,
+    "name": "non duis ad",
+    "picture": "https://picsum.photos/700/700?random=376",
+    "price": 32.7232,
+    "stock": 7
+  },
+  {
+    "id": "aa0b6b57-d8f9-4f26-8b5f-2bbb36434ab3",
+    "category": "V",
+    "description": "Nulla ad do pariatur laborum exercitation ullamco sit irure proident occaecat. Enim non Lorem tempor aliquip nulla sunt veniam excepteur culpa occaecat ut cupidatat ad Lorem. Esse ea occaecat voluptate velit velit adipisicing laborum. Ex sunt ex ullamco esse elit est magna labore commodo excepteur Lorem. Sit ad exercitation consectetur duis elit duis Lorem. Aute enim labore dolor pariatur incididunt in id cillum non aliqua ut fugiat.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "do adipisicing cillum",
+    "picture": "https://picsum.photos/700/700?random=777",
+    "price": 246.4594,
+    "stock": 15
+  },
+  {
+    "id": "0c488a2a-3022-4c98-9d5e-302d1a6791bd",
+    "category": "M",
+    "description": "Anim ex quis mollit pariatur do veniam deserunt eu nostrud voluptate cillum tempor et proident. In sunt minim pariatur adipisicing eu in amet irure culpa ipsum officia elit ea Lorem. Dolor elit ex voluptate duis aliquip labore nulla culpa. Culpa ipsum non eu duis in amet excepteur. Esse consectetur non eu qui et pariatur consequat cupidatat ut cupidatat. Nulla laborum veniam in eu commodo qui cillum aliqua ullamco reprehenderit do ea tempor in.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "consequat reprehenderit nostrud",
+    "picture": "https://picsum.photos/700/700?random=281",
+    "price": 197.4289,
+    "stock": 20
+  },
+  {
+    "id": "9143d669-0e42-4e5e-ba9c-2b8db00e9294",
+    "category": "H",
+    "description": "Elit nostrud ex id laboris. Ea sit ex aliquip sint id deserunt. Deserunt pariatur esse non voluptate do nisi excepteur tempor. Enim eiusmod deserunt quis sint officia tempor proident nostrud sint ex excepteur elit. Consequat nisi aliquip occaecat id aute irure. Minim consectetur laboris proident nostrud. Est voluptate magna occaecat amet commodo occaecat est elit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "et aute aute",
+    "picture": "https://picsum.photos/700/700?random=574",
+    "price": 191.2451,
+    "stock": 19
+  },
+  {
+    "id": "071adeac-e73a-453e-b566-74e3e127b40d",
+    "category": "C",
+    "description": "Consequat culpa laboris quis ullamco duis eiusmod deserunt amet dolore. Duis adipisicing adipisicing officia amet do nulla reprehenderit. Reprehenderit consectetur aliqua aliqua velit sint fugiat quis duis laboris. Tempor sint aute consectetur sint pariatur commodo consequat amet veniam duis. Dolore velit sit ut magna. Aliquip deserunt culpa consectetur veniam adipisicing mollit amet ex cupidatat magna aliquip. In irure anim proident elit proident sint velit sint enim officia dolor et incididunt veniam.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "commodo do dolore",
+    "picture": "https://picsum.photos/700/700?random=998",
+    "price": 123.8089,
+    "stock": 20
+  },
+  {
+    "id": "bb42c72c-6c71-40bc-8503-fb8a7d43d173",
+    "category": "C",
+    "description": "Enim velit esse anim ipsum tempor tempor do voluptate mollit dolor est nulla irure. Irure sint aliqua do id. Non in laboris proident consequat deserunt velit incididunt eu.\r\n",
+    "discount": {
+      "status": true,
+      "value": 95
+    },
+    "isActive": false,
+    "name": "do do labore",
+    "picture": "https://picsum.photos/700/700?random=131",
+    "price": 215.8043,
+    "stock": 11
+  },
+  {
+    "id": "f5a87413-1655-4854-9230-bb2210e8437b",
+    "category": "R",
+    "description": "Tempor magna et occaecat consequat elit Lorem id ad ipsum nisi. Nulla voluptate sunt elit esse elit aliqua fugiat enim enim. Ad velit anim Lorem consectetur. In reprehenderit dolore esse velit duis id incididunt laboris excepteur consectetur fugiat. Irure commodo commodo tempor elit sunt culpa aute adipisicing. Anim sunt et amet aliqua non id non elit voluptate reprehenderit sit sit exercitation. Tempor ea pariatur culpa proident qui ea eu.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "excepteur ad sit",
+    "picture": "https://picsum.photos/700/700?random=266",
+    "price": 366.0297,
+    "stock": 1
+  },
+  {
+    "id": "561d7b34-f74e-4dfb-aec9-9901686f07ff",
+    "category": "V",
+    "description": "Velit adipisicing nostrud ullamco minim aute. Mollit amet enim elit deserunt et nostrud laborum veniam in elit mollit mollit. Excepteur consequat dolor nostrud est culpa ad in do adipisicing officia. Dolore ipsum dolore sint ullamco ullamco fugiat pariatur ad do incididunt. Minim minim cupidatat eu proident occaecat. Non duis mollit excepteur magna veniam consequat elit ipsum laborum elit Lorem.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "minim duis id",
+    "picture": "https://picsum.photos/700/700?random=2",
+    "price": 372.0407,
+    "stock": 14
+  },
+  {
+    "id": "60b9a0b8-4729-4b9e-b741-2fc8d8ae4794",
+    "category": "Q",
+    "description": "Occaecat reprehenderit excepteur fugiat eiusmod anim id aliquip amet aliqua cupidatat nisi ex esse. Est commodo sunt consequat officia voluptate. Pariatur anim elit qui tempor velit culpa ad.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "ipsum nostrud ex",
+    "picture": "https://picsum.photos/700/700?random=559",
+    "price": 182.0605,
+    "stock": 11
+  },
+  {
+    "id": "31e2e255-efef-4650-b205-dc6149e76f43",
+    "category": "K",
+    "description": "Voluptate eiusmod commodo dolore elit quis culpa proident. Proident commodo nostrud do eiusmod excepteur reprehenderit sit. Et qui sunt proident eu pariatur reprehenderit reprehenderit aute id. Consequat eiusmod exercitation nostrud amet aute. Duis ullamco proident consectetur do aliquip do excepteur in. Sit ipsum velit ullamco incididunt consequat consequat dolore incididunt veniam ut amet nisi consectetur.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "anim aute culpa",
+    "picture": "https://picsum.photos/700/700?random=782",
+    "price": 16.1797,
+    "stock": 10
+  },
+  {
+    "id": "8aacb641-5fa3-4175-a147-cd6450a70e56",
+    "category": "Q",
+    "description": "Velit sunt non amet veniam ut magna do deserunt amet voluptate qui. Ullamco nulla tempor consequat ex proident ipsum veniam consectetur esse dolore. Consectetur non excepteur occaecat Lorem incididunt nulla eu dolore. Exercitation aliquip cupidatat in commodo sunt mollit nisi reprehenderit.\r\n",
+    "discount": {
+      "status": true,
+      "value": 15
+    },
+    "isActive": false,
+    "name": "est irure aliquip",
+    "picture": "https://picsum.photos/700/700?random=49",
+    "price": 219.3754,
+    "stock": 7
+  },
+  {
+    "id": "8c835ff0-8e9e-46c6-8dd3-79c5cc637311",
+    "category": "P",
+    "description": "Velit sit sit laboris ad pariatur dolor sint in. Commodo elit sit laborum occaecat deserunt aliquip tempor proident eu est exercitation. Eiusmod in aute nisi reprehenderit qui fugiat adipisicing sunt nisi elit.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "aute deserunt laborum",
+    "picture": "https://picsum.photos/700/700?random=290",
+    "price": 330.3784,
+    "stock": 4
+  },
+  {
+    "id": "8de87938-beab-48ed-b69c-5ccc73878ca2",
+    "category": "Ñ",
+    "description": "Aute do adipisicing in culpa ea in proident dolor. Consequat ad Lorem exercitation est reprehenderit magna esse deserunt deserunt fugiat nisi aliqua laborum ipsum. Dolor eu eu sunt nulla est sunt mollit non eiusmod dolore quis amet deserunt. Nulla deserunt esse dolore nisi cillum reprehenderit voluptate elit esse eu labore exercitation mollit incididunt. Reprehenderit qui exercitation eiusmod laboris ad anim excepteur officia aliqua.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "proident veniam ea",
+    "picture": "https://picsum.photos/700/700?random=754",
+    "price": 78.9461,
+    "stock": 15
+  },
+  {
+    "id": "f2e7ead7-d96e-4c53-b978-cd52ff292bc4",
+    "category": "J",
+    "description": "Nostrud voluptate id enim nostrud eiusmod. Est in ea ut enim pariatur esse anim dolor consequat adipisicing do deserunt eu. Ex duis sunt laboris proident cupidatat cupidatat eu aute consectetur. Nulla magna est anim duis. Ex culpa aliqua sint aliqua aliqua anim voluptate sint adipisicing in sunt proident. Culpa do tempor consequat sint occaecat est adipisicing laborum officia dolore est et. Lorem mollit culpa deserunt laborum.\r\n",
+    "discount": {
+      "status": true,
+      "value": 22
+    },
+    "isActive": false,
+    "name": "et laborum aute",
+    "picture": "https://picsum.photos/700/700?random=547",
+    "price": 318.5091,
+    "stock": 14
+  },
+  {
+    "id": "44c9f84e-1323-4f2b-99fb-28da0833f146",
+    "category": "S",
+    "description": "Nulla et non magna deserunt exercitation fugiat laborum Lorem tempor excepteur do cupidatat. Nostrud est cillum consectetur Lorem consectetur cupidatat reprehenderit nostrud do. Eiusmod irure consequat eu tempor deserunt culpa velit esse cillum pariatur et labore. Et pariatur minim eiusmod laboris cupidatat aute sit pariatur est magna ad deserunt enim. Ad veniam quis elit laborum occaecat excepteur commodo pariatur nulla excepteur minim quis duis culpa.\r\n",
+    "discount": {
+      "status": true,
+      "value": 24
+    },
+    "isActive": true,
+    "name": "tempor et pariatur",
+    "picture": "https://picsum.photos/700/700?random=718",
+    "price": 397.6138,
+    "stock": 12
+  },
+  {
+    "id": "40df16fc-2203-43b0-a0b8-b6436bdd1e11",
+    "category": "G",
+    "description": "Aliquip minim cupidatat excepteur et anim proident. Consequat anim ipsum pariatur eiusmod est dolor Lorem ex est magna excepteur. Commodo non ad excepteur ipsum consequat qui dolore sunt ex officia proident velit Lorem. Duis dolor nulla minim id labore incididunt labore magna irure culpa.\r\n",
+    "discount": {
+      "status": true,
+      "value": 50
+    },
+    "isActive": false,
+    "name": "nisi enim occaecat",
+    "picture": "https://picsum.photos/700/700?random=557",
+    "price": 385.5471,
+    "stock": 2
+  },
+  {
+    "id": "a68d8137-dabf-4ce4-a4c8-534f94d71ec2",
+    "category": "W",
+    "description": "Amet pariatur nisi laboris Lorem laboris deserunt quis exercitation. Pariatur exercitation officia pariatur id anim cupidatat sint tempor pariatur enim sit quis non. Sit enim sit esse occaecat adipisicing in id aute irure. Occaecat non Lorem consequat adipisicing sit magna. Ullamco nisi fugiat incididunt minim quis adipisicing. Pariatur velit tempor culpa ex deserunt culpa ex eiusmod anim labore.\r\n",
+    "discount": {
+      "status": true,
+      "value": 43
+    },
+    "isActive": false,
+    "name": "cupidatat officia cupidatat",
+    "picture": "https://picsum.photos/700/700?random=312",
+    "price": 316.7015,
+    "stock": 16
+  },
+  {
+    "id": "651fe212-6603-4260-8e0f-8bf9e1695c92",
+    "category": "R",
+    "description": "Sunt id elit esse sunt velit deserunt consectetur. Aliqua sunt cillum laboris amet duis velit. Enim laboris eiusmod excepteur cillum. Laboris magna nisi irure officia commodo excepteur.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "tempor sunt aute",
+    "picture": "https://picsum.photos/700/700?random=551",
+    "price": 14.2209,
+    "stock": 1
+  },
+  {
+    "id": "a051e590-d319-460c-a6e7-00424f46f473",
+    "category": "M",
+    "description": "Sunt anim ut consequat pariatur occaecat pariatur sunt adipisicing eu occaecat occaecat culpa esse nisi. Incididunt amet ipsum voluptate do sit sint do cillum commodo do minim fugiat do. Anim officia sunt id ad. Excepteur fugiat qui adipisicing dolore incididunt cillum ea. Dolor consequat fugiat aliquip officia commodo laborum do. Velit ipsum officia excepteur ipsum tempor cillum.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": true,
+    "name": "proident mollit adipisicing",
+    "picture": "https://picsum.photos/700/700?random=559",
+    "price": 133.782,
+    "stock": 15
+  },
+  {
+    "id": "0752098f-139d-46b6-95c4-dcb58a934170",
+    "category": "B",
+    "description": "Ea ipsum eu cupidatat eiusmod ut do quis. Labore sint ea aliqua reprehenderit est occaecat adipisicing. Labore ea culpa exercitation labore reprehenderit.\r\n",
+    "discount": {
+      "status": true,
+      "value": 66
+    },
+    "isActive": false,
+    "name": "eu tempor esse",
+    "picture": "https://picsum.photos/700/700?random=955",
+    "price": 126.6753,
+    "stock": 6
+  },
+  {
+    "id": "4c45daf4-1861-4994-b568-2c835a7f98f3",
+    "category": "B",
+    "description": "Et fugiat esse aute ad proident consectetur dolor ullamco non nisi cillum ex. Sunt incididunt ex tempor aliquip esse cillum non nisi reprehenderit anim exercitation ipsum duis. Velit nostrud Lorem et culpa id nostrud tempor fugiat minim laboris eiusmod qui reprehenderit est. Non incididunt dolore in labore amet nisi sint excepteur reprehenderit voluptate irure officia ad commodo. Irure cupidatat quis aute ex magna dolore eu exercitation.\r\n",
+    "discount": {
+      "status": true,
+      "value": 14
+    },
+    "isActive": true,
+    "name": "pariatur eu anim",
+    "picture": "https://picsum.photos/700/700?random=538",
+    "price": 79.4725,
+    "stock": 2
+  },
+  {
+    "id": "804d4518-f108-4cb6-a7f4-a0bd54831544",
+    "category": "V",
+    "description": "Dolore excepteur ipsum commodo exercitation magna. Exercitation irure nulla incididunt eu commodo veniam dolore Lorem pariatur eu magna. Amet deserunt fugiat fugiat exercitation. Labore irure consectetur incididunt voluptate anim sunt voluptate officia incididunt commodo. Anim qui est reprehenderit dolore reprehenderit labore incididunt elit culpa commodo sit.\r\n",
+    "discount": {
+      "status": true,
+      "value": 76
+    },
+    "isActive": true,
+    "name": "culpa sunt do",
+    "picture": "https://picsum.photos/700/700?random=182",
+    "price": 356.3976,
+    "stock": 17
+  },
+  {
+    "id": "94b67d32-0772-4c13-92e2-31fb29cb7972",
+    "category": "S",
+    "description": "Anim dolor Lorem laborum esse quis commodo. Et elit est elit adipisicing sit. Sunt consequat in nostrud veniam tempor. Ea amet nostrud eu velit eiusmod eu nulla consectetur do duis.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "ea dolor consectetur",
+    "picture": "https://picsum.photos/700/700?random=381",
+    "price": 221.363,
+    "stock": 12
+  },
+  {
+    "id": "fc548adb-1622-4682-b133-0726ad215890",
+    "category": "O",
+    "description": "Adipisicing reprehenderit exercitation velit esse nulla laborum esse veniam irure. Enim ut culpa laborum consectetur occaecat ullamco. Enim consequat commodo consectetur excepteur incididunt amet ut cupidatat cillum quis. Proident velit dolore cupidatat qui quis ea veniam do. Fugiat consequat duis nisi sit nisi sint officia non amet irure laborum non ad nisi.\r\n",
+    "discount": {
+      "status": true,
+      "value": 1
+    },
+    "isActive": true,
+    "name": "mollit nisi amet",
+    "picture": "https://picsum.photos/700/700?random=901",
+    "price": 308.0627,
+    "stock": 20
+  },
+  {
+    "id": "7bf4d0d7-8482-41db-b850-84174880139a",
+    "category": "G",
+    "description": "Nulla aliqua id proident laboris. Laborum exercitation aliqua anim voluptate nostrud duis et nulla tempor labore ea do qui enim. Enim do ullamco sunt elit laborum consequat ullamco consequat ad eu. Ad consequat consequat voluptate nisi. Dolore voluptate reprehenderit amet aliquip proident incididunt qui dolore. Minim sint ex nulla incididunt.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "occaecat nostrud sint",
+    "picture": "https://picsum.photos/700/700?random=335",
+    "price": 174.8148,
+    "stock": 3
+  },
+  {
+    "id": "75961f5e-2310-4358-a638-a066ea3e9577",
+    "category": "H",
+    "description": "Cupidatat pariatur magna dolore aliqua sint elit enim deserunt incididunt non aliquip laboris sint. Nulla occaecat non pariatur esse nulla et. Dolor elit pariatur adipisicing consectetur. Nostrud et consectetur laboris pariatur consequat incididunt esse culpa deserunt. Voluptate minim pariatur dolore occaecat reprehenderit proident dolor enim sint dolor elit. Esse tempor eu ullamco ipsum nisi deserunt est nostrud voluptate ullamco fugiat deserunt quis enim. Aliqua do aliqua officia enim aliqua ea qui labore.\r\n",
+    "discount": {
+      "status": true,
+      "value": 41
+    },
+    "isActive": true,
+    "name": "fugiat proident aliqua",
+    "picture": "https://picsum.photos/700/700?random=539",
+    "price": 181.3381,
+    "stock": 8
+  },
+  {
+    "id": "2e72438d-40a4-4092-8b35-a33faf8eb177",
+    "category": "O",
+    "description": "Voluptate id velit sint reprehenderit irure sunt aute officia Lorem. Id magna nostrud cillum cupidatat non anim Lorem consequat culpa ullamco fugiat. Id excepteur sit cillum elit. Excepteur officia minim adipisicing Lorem nisi proident commodo. Labore consectetur laboris irure non ut magna nostrud.\r\n",
+    "discount": {
+      "status": true,
+      "value": 18
+    },
+    "isActive": false,
+    "name": "ullamco deserunt voluptate",
+    "picture": "https://picsum.photos/700/700?random=159",
+    "price": 193.2396,
+    "stock": 3
+  },
+  {
+    "id": "331cbc28-437c-4516-a3a6-4b80206242a8",
+    "category": "P",
+    "description": "Aliquip velit adipisicing duis mollit laboris amet proident deserunt aliqua eu est est aliqua mollit. Enim ea eu velit consequat sint amet veniam exercitation ipsum reprehenderit in nulla magna. Reprehenderit velit proident Lorem excepteur ad sunt Lorem Lorem sit mollit reprehenderit ullamco. Ea laborum exercitation sint culpa non aliqua elit tempor nulla enim. Laboris cupidatat id irure est non reprehenderit sit ipsum consequat.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "dolore fugiat mollit",
+    "picture": "https://picsum.photos/700/700?random=887",
+    "price": 227.7217,
+    "stock": 8
+  },
+  {
+    "id": "40789544-5d81-4e04-ac38-6905482a27ec",
+    "category": "E",
+    "description": "Officia magna et pariatur id sint. Eiusmod occaecat proident ullamco cillum officia. Culpa anim cupidatat ex voluptate amet sint do non esse enim id. Aliquip anim esse ad Lorem adipisicing ea excepteur dolore esse occaecat eiusmod.\r\n",
+    "discount": {
+      "status": true,
+      "value": 82
+    },
+    "isActive": false,
+    "name": "cupidatat commodo qui",
+    "picture": "https://picsum.photos/700/700?random=933",
+    "price": 221.9537,
+    "stock": 12
+  },
+  {
+    "id": "a35160e9-1807-40da-8bc8-69d682c21392",
+    "category": "Z",
+    "description": "Proident officia elit cillum magna. Ullamco incididunt in fugiat anim est amet aliqua est esse laborum nulla. Ex cupidatat qui esse velit nostrud nulla.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "velit sint id",
+    "picture": "https://picsum.photos/700/700?random=468",
+    "price": 63.0207,
+    "stock": 14
+  },
+  {
+    "id": "dd30d223-6674-4f76-a839-d67055bdb9cb",
+    "category": "J",
+    "description": "Veniam eiusmod minim exercitation incididunt commodo enim deserunt do deserunt eiusmod consequat minim fugiat. Elit occaecat in tempor mollit anim nisi non aliqua sit anim amet officia adipisicing veniam. Amet laboris veniam ea fugiat quis elit consectetur sit officia magna ex aliquip proident. Culpa pariatur nisi mollit eiusmod enim irure consequat laborum nulla quis deserunt laborum in.\r\n",
+    "discount": {
+      "status": true,
+      "value": 89
+    },
+    "isActive": false,
+    "name": "Lorem non qui",
+    "picture": "https://picsum.photos/700/700?random=949",
+    "price": 235.8421,
+    "stock": 20
+  },
+  {
+    "id": "657ab898-6710-4e53-b8e8-8a5b01347f3d",
+    "category": "Y",
+    "description": "Aute et adipisicing est sunt eu anim cupidatat Lorem cupidatat velit consequat ad aliquip sit. Ad tempor excepteur labore est. Fugiat irure duis id cillum adipisicing Lorem laboris deserunt ullamco. Aute sunt id qui excepteur esse veniam. Incididunt dolore aliqua reprehenderit et ex nulla. Excepteur eu laborum officia proident proident dolore ullamco ea fugiat Lorem nulla. Aliqua ea consequat minim ad nisi laboris cupidatat anim dolor sunt enim commodo consequat commodo.\r\n",
+    "discount": {
+      "status": false,
+      "value": 0
+    },
+    "isActive": false,
+    "name": "esse exercitation eiusmod",
+    "picture": "https://picsum.photos/700/700?random=415",
+    "price": 14.2348,
+    "stock": 3
+  },
+  {
+    "id": "06971402-0606-4a33-b519-cc06cf900b30",
+    "category": "I",
+    "description": "Laborum incididunt magna fugiat ipsum labore laboris commodo. Laborum nostrud consectetur id laborum dolor cillum. Anim qui dolor veniam nostrud aliquip quis.\r\n",
+    "discount": {
+      "status": true,
+      "value": 80
+    },
+    "isActive": false,
+    "name": "magna pariatur non",
+    "picture": "https://picsum.photos/700/700?random=575",
+    "price": 78.182,
+    "stock": 15
+  }
+]
