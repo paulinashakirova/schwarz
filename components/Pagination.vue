@@ -1,23 +1,19 @@
 <script setup lang="ts">
-import { useCurrentUrl } from '@/composables/use-current-url'
-import { computed, useContext, useRoute } from '@nuxtjs/composition-api'
+import { computed, useRoute, useRouter } from '@nuxtjs/composition-api'
 const route = useRoute()
-console.log('route', route.value)
-console.log('context', useContext())
+const router = useRouter()
 
-console.log('useCurrentUrl', useCurrentUrl())
-
-// route.value.params.push()
 interface Props {
   totalProducts: number
-  productsPerPage: number
 }
 
 const props = defineProps<Props>()
 const emit = defineEmits(['paginate'])
 
 const pages = computed(() => {
-  return Math.ceil(props.totalProducts / props.productsPerPage)
+  return Math.ceil(
+    props.totalProducts / Number(router.currentRoute.query.perPage)
+  )
 })
 
 const handleClick = (page: number) => {

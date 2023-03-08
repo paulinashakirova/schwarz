@@ -7,47 +7,47 @@ import {
   computed,
   onBeforeMount,
   ref,
-  useContext,
   useRouter,
 } from '@nuxtjs/composition-api'
 
 const store = useProductsListStore()
-const context = useContext()
-const currentPage = ref<number>(1)
-const query = new URLSearchParams({})
 const router = useRouter()
+
+const currentPage = ref<number>(1)
+
+const productsPerPage = computed(() => {
+  return router.currentRoute.query.perPage
+})
+
 const productsList = computed(() => {
   return store.productsList
 })
 
-const productsCurrentPage = computed(() => {
-  return store.productsList.slice(currentPage.value - 1, currentPage.value + 5)
+const productsCurrentPageFromQuery = computed(() => {
+  return router.currentRoute.query.page
 })
 
-onBeforeMount(async () => {
-  await store.fetchProductsList()
+const productsCurrentPage = computed(() => {
+  return store.productsList.slice(
+    currentPage.value - 1,
+    currentPage.value + Number(productsPerPage.value) - 1
+  )
 })
 
 const paginate = (page: number) => {
   currentPage.value = page
-  router.push({ query: { page: page.toString(), perPage: '6' } })
-  console.log('routeR', router)
-
-  // const url = `${baseUrl}${
-  // context.env.includes('?') ? '&' : '?'
-  // }${query.toString()}`
-  // console.log('url', url)
-  // return url
+  router.push({ query: { page: page.toString(), perPage: '4' } })
 }
+
+onBeforeMount(async () => {
+  await store.fetchProductsList()
+  paginate(Number(productsCurrentPageFromQuery.value))
+})
 </script>
 
 <template>
   <section>
-    <Pagination
-      @paginate="paginate"
-      :total-products="productsList.length"
-      :products-per-page="6"
-    >
+    <Pagination @paginate="paginate" :total-products="productsList.length">
       <div class="flex flex-wrap gap-8 my-8 py-8">
         <div
           class="mx-auto"
