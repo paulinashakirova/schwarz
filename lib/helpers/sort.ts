@@ -1,5 +1,7 @@
-export const sortBySale = (products: any, direction: boolean) => {
-  const ascending = products.slice().sort((a: any, b: any) => {
+import { Product } from '@/types/product'
+
+export const sortBySale = (products: Product[], direction: boolean) => {
+  const ascending = products.slice().sort((a: Product, b: Product) => {
     return a.discount.value > b.discount.value
       ? 1
       : a.discount.value < b.discount.value
@@ -7,7 +9,7 @@ export const sortBySale = (products: any, direction: boolean) => {
       : 0
   })
 
-  const descending = products.slice().sort((a: any, b: any) => {
+  const descending = products.slice().sort((a: Product, b: Product) => {
     return a.discount.value > b.discount.value
       ? -1
       : a.discount.value < b.discount.value

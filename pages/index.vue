@@ -32,7 +32,7 @@ const productsCurrentPageFromQuery = computed(() => {
   return Number(router.currentRoute.query.page ?? 1)
 })
 
-const modifyProductList = (condition: any) => {
+const modifyProductList = (condition: string) => {
   if (condition === 'sale') {
     lastSortDirectionAscending.value = !lastSortDirectionAscending.value
     dataSource.value = sortBySale(

@@ -1,5 +1,7 @@
-export const filterProductsOnSale = (data: any) => {
-  console.log('filterProductsOnSale')
+import { Product } from '@/types/product'
 
-  return data.slice().filter((product: any) => product.discount.status === true)
+export const filterProductsOnSale = (data: Product[]) => {
+  return data
+    .slice()
+    .filter((product: Product) => product.discount.status === true)
 }

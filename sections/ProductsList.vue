@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import ProductCard from '@/components/ProductCard.vue'
 import { roundPrice } from '@/lib/helpers/utils'
+import { Product } from '@/types/product'
 
 interface Props {
-  productsCurrentPage: any
+  productsCurrentPage: Product[]
 }
 
 const props = defineProps<Props>()
