@@ -17,14 +17,15 @@ const router = useRouter()
 
 const currentPage = ref<number>(1)
 const lastSortDirectionAscending = ref(true)
+const showOnlyOnSaleItems = ref(false)
 const dataSource = ref(store.productsList)
 
 const productsPerPage = computed(() => {
-  return Number(router.currentRoute.query.perPage)
+  return Number(router.currentRoute.query.perPage ?? 6)
 })
 
 const productsListLength = computed(() => {
-  return store.productsList.length
+  return dataSource.value.length
 })
 
 const productsCurrentPageFromQuery = computed(() => {
@@ -33,17 +34,19 @@ const productsCurrentPageFromQuery = computed(() => {
 
 const modifyProductList = (condition: any) => {
   if (condition === 'sale') {
-    // on reload sale gets reset
     lastSortDirectionAscending.value = !lastSortDirectionAscending.value
     dataSource.value = sortBySale(
-      store.productsList,
+      dataSource.value,
       lastSortDirectionAscending.value
     )
-    console.log('dataSource.value.length sale', dataSource.value.length)
-  } else if (condition === 'showOnlyOnSale') {
-    dataSource.value = filterProductsOnSale(dataSource.value)
-    //I need to retriger paginate with updated length. but when i reload things reset...
-  } else {
+  }
+  if (condition === 'showOnlyOnSale') {
+    showOnlyOnSaleItems.value = !showOnlyOnSaleItems.value
+    showOnlyOnSaleItems.value
+      ? (dataSource.value = filterProductsOnSale(dataSource.value))
+      : (dataSource.value = store.productsList)
+  }
+  if (!condition) {
     dataSource.value = store.productsList
   }
 }
@@ -56,7 +59,7 @@ const productsCurrentPage = computed(() => {
 })
 
 const paginate = (page: number) => {
-  router.push({ query: { page: page.toString(), perPage: '8' } })
+  router.push({ query: { page: page.toString(), perPage: '6' } })
   currentPage.value = page
 }
 
@@ -74,8 +77,10 @@ onBeforeMount(async () => {
     </h1>
     <div class="flex gap-x-4 justify-center">
       <div
+        tabindex="1"
         class="flex justify-center gap-x-2 cursor-pointer group border py-2 px-3 rounded-sm"
         @click="() => modifyProductList('sale')"
+        @keydown="() => modifyProductList('sale')"
       >
         <div>Sort By Sale</div>
         <svg
@@ -99,9 +104,13 @@ onBeforeMount(async () => {
         </svg>
       </div>
       <a
-        class="border py-2 px-3 rounded-sm"
+        tabindex="2"
+        class="border py-2 px-3 rounded-sm cursor-pointer"
         @click="() => modifyProductList('showOnlyOnSale')"
-        >Show only on Sale</a
+        @keydown="() => modifyProductList('showOnlyOnSale')"
+        >{{
+          showOnlyOnSaleItems ? 'Show all products' : 'Show only on Sale'
+        }}</a
       >
     </div>
     <ProductsList :products-current-page="productsCurrentPage" />
