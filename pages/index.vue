@@ -28,7 +28,7 @@ const productsListLength = computed(() => {
 })
 
 const productsCurrentPageFromQuery = computed(() => {
-  return Number(router.currentRoute.query.page)
+  return Number(router.currentRoute.query.page ?? 1)
 })
 
 const modifyProductList = (condition: any) => {
@@ -43,7 +43,6 @@ const modifyProductList = (condition: any) => {
   } else if (condition === 'showOnlyOnSale') {
     dataSource.value = filterProductsOnSale(dataSource.value)
     //I need to retriger paginate with updated length. but when i reload things reset...
-    console.log('dataSource.value.length onlysale', dataSource.value.length)
   } else {
     dataSource.value = store.productsList
   }
@@ -57,8 +56,8 @@ const productsCurrentPage = computed(() => {
 })
 
 const paginate = (page: number) => {
-  currentPage.value = page
   router.push({ query: { page: page.toString(), perPage: '8' } })
+  currentPage.value = page
 }
 
 onBeforeMount(async () => {
