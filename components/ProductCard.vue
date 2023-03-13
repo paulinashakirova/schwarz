@@ -12,17 +12,18 @@ export interface ProductCard {
   price: number
   stock: number
 }
-//Should I move this to Pinia?
-const isOnSale = computed(() => {
-  return props.discount?.status ? `${props.stock} items left` : `Out of stock`
-})
 
 const props = defineProps<ProductCard>()
+
+const isOnSale = computed(() => {
+  return props.stock > 0 ? `${props.stock} items left` : `Out of stock`
+})
 </script>
 
 <template>
   <div
     class="relative shadow-sm p-4 flex flex-col w-80 mx-auto gap-y-4 h-full bg-gray-100 rounded-md justify-between"
+    :class="props.stock === 0 ? 'brightness-50' : ''"
   >
     <div
       v-if="props.discount?.status"
@@ -35,7 +36,7 @@ const props = defineProps<ProductCard>()
     </div>
 
     <img
-      class="rounded-md"
+      class="rounded-md mx-auto"
       :src="props.picture"
       width="280"
       height="280"
@@ -48,9 +49,6 @@ const props = defineProps<ProductCard>()
       <p>{{ props.description }}</p>
       <div class="flex justify-between mt-auto">
         <div>Price: {{ props.price }} $</div>
-        <!-- Find a way to show out of stock (computed property... pinia or here? 
-      Keep computed in pinia or utils?
-      ) -->
         <div>{{ isOnSale }}</div>
       </div>
     </div>
