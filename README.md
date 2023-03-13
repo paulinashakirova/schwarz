@@ -1,6 +1,5 @@
-# Test project
 
-## [Here](https://640f63b06ba44700889bbe4e--comfy-twilight-e67928.netlify.app/) you can see app live
+## [Here](https://640f63b06ba44700889bbe4e--comfy-twilight-e67928.netlify.app/) you can see the app live
 
 ## Build Setup
 
