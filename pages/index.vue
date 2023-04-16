@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Pagination from '@/components/Pagination.vue'
 import ProductsList from '@/sections/ProductsList.vue'
+import {Product} from '@/types/product'
 import {
   computed,
   onBeforeMount,
@@ -16,9 +17,9 @@ const store = useProductsListStore()
 const router = useRouter()
 
 const currentPage = ref<number>(1)
-const lastSortDirectionAscending = ref(true)
-const showOnlyOnSaleItems = ref(false)
-const dataSource = ref(store.productsList)
+const lastSortDirectionAscending = ref<boolean>(true)
+const showOnlyOnSaleItems = ref<boolean>(false)
+const dataSource = ref<Product[]>(store.productsList)
 
 const productsPerPage = computed(() => {
   return Number(router.currentRoute.query.perPage ?? 6)
@@ -58,15 +59,16 @@ const productsCurrentPage = computed(() => {
   )
 })
 
-const paginate = (page: number) => {
-  router.push({ query: { page: page.toString(), perPage: '6' } })
+const paginate = (page: number, perPage:number) => {
+  router.push({ query: { page: page.toString(), perPage: perPage.toString() } })
   currentPage.value = page
+  productsCurrentPage
 }
 
 onBeforeMount(async () => {
   await store.fetchProductsList()
   dataSource.value = store.productsList
-  paginate(productsCurrentPageFromQuery.value)
+  paginate(productsCurrentPageFromQuery.value, productsPerPage.value)
 })
 </script>
 
