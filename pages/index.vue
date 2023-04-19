@@ -59,8 +59,8 @@ const productsCurrentPage = computed(() => {
   )
 })
 
-const paginate = (page: number, perPage:number) => {
-  router.push({ query: { page: page.toString(), perPage: perPage.toString() } })
+const paginate = (page: number, perPage?: number) => {
+  router.push({ query: { page: page.toString(), perPage: perPage?.toString() ?? productsPerPage.value.toString() } })
   currentPage.value = page
   productsCurrentPage
 }
