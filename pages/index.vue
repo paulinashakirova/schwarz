@@ -7,6 +7,7 @@ import {
   onBeforeMount,
   ref,
   useRouter,
+  useRoute,
 } from '@nuxtjs/composition-api'
 
 import { filterProductsOnSale } from '@/lib/helpers/filter'
@@ -15,8 +16,10 @@ import { useProductsListStore } from '@/stores/products'
 
 const store = useProductsListStore()
 const router = useRouter()
+const route = useRoute()
 
-const currentPage = ref<number>(1)
+const currentPage = ref<number>(Number(route.value.query.page) ?? 1)
+
 const lastSortDirectionAscending = ref<boolean>(true)
 const showOnlyOnSaleItems = ref<boolean>(false)
 const dataSource = ref<Product[]>(store.productsList)
@@ -133,6 +136,7 @@ onBeforeMount(async () => {
     <Pagination
       :products-per-page="productsPerPage"
       :pages="pages"
+      :current-page="currentPage"
       @paginate="paginate"
     />
   </div>
