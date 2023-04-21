@@ -28,15 +28,17 @@ const props = defineProps<Props>()
         } of props.productsCurrentPage"
         :key="id"
       >
-        <ProductCard
-          :name="name"
-          :description="description"
-          :category="category"
-          :picture="picture"
-          :price="roundPrice(price)"
-          :stock="stock"
-          :discount="{ status, value }"
-        />
+        <NuxtLink :to="`${id}`">
+          <ProductCard
+            :name="name"
+            :description="description"
+            :category="category"
+            :picture="picture"
+            :price="roundPrice(price)"
+            :stock="stock"
+            :discount="{ status, value }"
+          />
+        </NuxtLink>
       </div>
     </div>
   </section>
