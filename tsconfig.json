@@ -18,5 +18,14 @@
     },
     "types": ["@nuxt/types", "@types/node", "@pinia/nuxt"]
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "include": [
+    "./components/*.vue",
+    "./pages/*.vue",
+    "./sections/*.vue",
+    "./lib/helpers/*.ts"
+  ],
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
 }

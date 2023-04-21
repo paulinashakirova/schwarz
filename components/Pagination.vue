@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { computed, ref, useRoute } from '@nuxtjs/composition-api'
+import ArrowSvg from './ArrowSvg.vue'
 
-const route = useRoute()
+const route = useRoute() //move to index.vue
 
 interface Props {
-  totalProducts: number
   productsPerPage: number
+  pages: number
 }
 
 const props = defineProps<Props>()
@@ -13,20 +14,14 @@ const emit = defineEmits(['paginate'])
 
 const currentPage = ref<number>(Number(route.value.query.page))
 
-const pages = computed(() => {
-  return Math.ceil(
-    props.totalProducts / (!props.productsPerPage ? 6 : props.productsPerPage)
-  )
-})
-
 const pagesToDisplay = computed(() => {
   let start = <number[]>[]
   let middle = <number[]>[]
   let end = <number[]>[]
 
-  if (pages.value <= 7) {
+  if (props.pages <= 7) {
     return {
-      start: Array.from({ length: pages.value }, (_, i) => i + 1),
+      start: Array.from({ length: props.pages }, (_, i) => i + 1),
       middle: [],
       end: [],
     }
@@ -34,46 +29,48 @@ const pagesToDisplay = computed(() => {
 
   if (currentPage.value === 1) {
     start = [1, 2]
-    middle = [~~(pages.value / 2)]
-    end = [pages.value - 1, pages.value]
+    middle = [~~(props.pages / 2)]
+    end = [props.pages - 1, props.pages]
   } else if (currentPage.value === 2) {
     start = [1, 2, 3]
-    middle = [~~(pages.value / 2)]
-    end = [pages.value - 1, pages.value]
+    middle = [~~(props.pages / 2)]
+    end = [props.pages - 1, props.pages]
   } else if (currentPage.value === 3) {
     start = [1, 2, 3, 4]
     middle = []
-    end = [pages.value - 1, pages.value]
+    end = [props.pages - 1, props.pages]
   } else if (currentPage.value === 4) {
     start = [1, 2, 3, 4, 5]
     middle = []
-    end = [pages.value - 1, pages.value]
-  } else if (currentPage.value === pages.value) {
+    end = [props.pages - 1, props.pages]
+  } else if (currentPage.value === props.pages) {
     start = [1, 2]
-    middle = [~~(pages.value / 2)]
-    end = [pages.value - 1, pages.value]
-  } else if (currentPage.value === pages.value - 1) {
+    middle = [~~(props.pages / 2)]
+    end = [props.pages - 1, props.pages]
+  } else if (currentPage.value === props.pages - 1) {
     start = [1, 2]
-    middle = [~~(pages.value / 2)]
-    end = [pages.value - 2, pages.value - 1, pages.value]
-  } else if (currentPage.value === pages.value - 2) {
+    middle = [~~(props.pages / 2)]
+    end = [props.pages - 2, props.pages - 1, props.pages]
+  } else if (currentPage.value === props.pages - 2) {
     start = [1, 2]
     middle = []
-    end = [pages.value - 3, pages.value - 2, pages.value - 1, pages.value]
-  } else if (currentPage.value === pages.value - 3) {
+    end = [props.pages - 3, props.pages - 2, props.pages - 1, props.pages]
+  } else if (currentPage.value === props.pages - 3) {
     start = [1, 2]
     middle = []
     end = [
-      pages.value - 4,
-      pages.value - 3,
-      pages.value - 2,
-      pages.value - 1,
-      pages.value,
+      props.pages - 4,
+      props.pages - 3,
+      props.pages - 2,
+      props.pages - 1,
+      props.pages,
     ]
   } else {
     start = [1, 2]
-    middle = [currentPage.value - 1, currentPage.value, currentPage.value + 1]
-    end = [pages.value - 1, pages.value]
+    if (currentPage.value <= props.pages - 4) {
+      middle = [currentPage.value - 1, currentPage.value, currentPage.value + 1]
+    }
+    end = [props.pages - 1, props.pages]
   }
 
   return { start, middle, end }
@@ -87,8 +84,8 @@ const handleClick = (page: number) => {
 
 <template>
   <div>
-    <div class="flex mx-auto my-4 justify-center border-2 border-blue-400">
-      <div class="flex flex-wrap gap-3 border-2 border-red-400">
+    <div class="flex mx-auto my-4 justify-center">
+      <div class="flex flex-wrap gap-3">
         <div v-for="page in pagesToDisplay.start" :key="page">
           <button
             @click="handleClick(page)"
@@ -98,8 +95,14 @@ const handleClick = (page: number) => {
             {{ page }}
           </button>
         </div>
-        <template v-if="pagesToDisplay.middle.length">
-          <div>...</div>
+        <button
+          v-if="currentPage >= 5"
+          class="h-5 w-5 -rotate-90 cursor-pointer self-center"
+          @click="handleClick(currentPage - 1)"
+        >
+          <ArrowSvg />
+        </button>
+        <template v-if="pagesToDisplay.middle.length && currentPage >= 4">
           <div v-for="page in pagesToDisplay.middle" :key="page">
             <button
               @click="handleClick(page)"
@@ -111,7 +114,20 @@ const handleClick = (page: number) => {
           </div>
         </template>
         <template v-if="pagesToDisplay.end.length">
-          <div>...</div>
+          <button
+            v-if="currentPage >= pages - 1"
+            class="h-5 w-5 -rotate-90 cursor-pointer self-center"
+            @click="handleClick(currentPage - 1)"
+          >
+            <ArrowSvg />
+          </button>
+          <button
+            v-if="currentPage <= pages - 4"
+            class="h-5 w-5 rotate-90 cursor-pointer self-center"
+            @click="handleClick(currentPage + 1)"
+          >
+            <ArrowSvg />
+          </button>
           <div v-for="page in pagesToDisplay.end" :key="page">
             <button
               @click="handleClick(page)"

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Pagination from '@/components/Pagination.vue'
 import ProductsList from '@/sections/ProductsList.vue'
-import {Product} from '@/types/product'
+import { Product } from '@/types/product'
 import {
   computed,
   onBeforeMount,
@@ -30,7 +30,16 @@ const productsListLength = computed(() => {
 })
 
 const productsCurrentPageFromQuery = computed(() => {
-  return Number(router.currentRoute.query.page ?? 1)
+  return Number(router.currentRoute.query.page) <= pages.value
+    ? Number(router.currentRoute.query.page)
+    : 1
+})
+
+const pages = computed(() => {
+  return Math.ceil(
+    productsListLength.value /
+      (!productsPerPage.value ? 6 : productsPerPage.value)
+  )
 })
 
 const modifyProductList = (condition: string) => {
@@ -60,7 +69,12 @@ const productsCurrentPage = computed(() => {
 })
 
 const paginate = (page: number, perPage?: number) => {
-  router.push({ query: { page: page.toString(), perPage: perPage?.toString() ?? productsPerPage.value.toString() } })
+  router.push({
+    query: {
+      page: page.toString(),
+      perPage: perPage?.toString() ?? productsPerPage.value.toString(),
+    },
+  })
   currentPage.value = page
   productsCurrentPage
 }
@@ -117,8 +131,8 @@ onBeforeMount(async () => {
     </div>
     <ProductsList :products-current-page="productsCurrentPage" />
     <Pagination
-      :total-products="productsListLength"
       :products-per-page="productsPerPage"
+      :pages="pages"
       @paginate="paginate"
     />
   </div>
