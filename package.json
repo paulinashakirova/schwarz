@@ -24,8 +24,10 @@
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "autoprefixer": "^10.4.13",
+    "jest": "^29.5.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
-    "vue-demi": "^0.13.11"
+    "vue-demi": "^0.13.11",
+    "@vue/runtime-dom": "latest"
   }
 }
