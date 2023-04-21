@@ -2,17 +2,14 @@
 import { computed, ref, useRoute } from '@nuxtjs/composition-api'
 import ArrowSvg from './ArrowSvg.vue'
 
-const route = useRoute() //move to index.vue
-
 interface Props {
   productsPerPage: number
   pages: number
+  currentPage: number
 }
 
 const props = defineProps<Props>()
 const emit = defineEmits(['paginate'])
-
-const currentPage = ref<number>(Number(route.value.query.page))
 
 const pagesToDisplay = computed(() => {
   let start = <number[]>[]
@@ -27,35 +24,35 @@ const pagesToDisplay = computed(() => {
     }
   }
 
-  if (currentPage.value === 1) {
+  if (props.currentPage === 1) {
     start = [1, 2]
-    middle = [~~(props.pages / 2)]
+    middle = []
     end = [props.pages - 1, props.pages]
-  } else if (currentPage.value === 2) {
+  } else if (props.currentPage === 2) {
     start = [1, 2, 3]
-    middle = [~~(props.pages / 2)]
+    middle = []
     end = [props.pages - 1, props.pages]
-  } else if (currentPage.value === 3) {
+  } else if (props.currentPage === 3) {
     start = [1, 2, 3, 4]
     middle = []
     end = [props.pages - 1, props.pages]
-  } else if (currentPage.value === 4) {
+  } else if (props.currentPage === 4) {
     start = [1, 2, 3, 4, 5]
     middle = []
     end = [props.pages - 1, props.pages]
-  } else if (currentPage.value === props.pages) {
+  } else if (props.currentPage === props.pages) {
     start = [1, 2]
-    middle = [~~(props.pages / 2)]
+    middle = []
     end = [props.pages - 1, props.pages]
-  } else if (currentPage.value === props.pages - 1) {
+  } else if (props.currentPage === props.pages - 1) {
     start = [1, 2]
-    middle = [~~(props.pages / 2)]
+    middle = []
     end = [props.pages - 2, props.pages - 1, props.pages]
-  } else if (currentPage.value === props.pages - 2) {
+  } else if (props.currentPage === props.pages - 2) {
     start = [1, 2]
     middle = []
     end = [props.pages - 3, props.pages - 2, props.pages - 1, props.pages]
-  } else if (currentPage.value === props.pages - 3) {
+  } else if (props.currentPage === props.pages - 3) {
     start = [1, 2]
     middle = []
     end = [
@@ -67,8 +64,8 @@ const pagesToDisplay = computed(() => {
     ]
   } else {
     start = [1, 2]
-    if (currentPage.value <= props.pages - 4) {
-      middle = [currentPage.value - 1, currentPage.value, currentPage.value + 1]
+    if (props.currentPage <= props.pages - 2) {
+      middle = [props.currentPage - 1, props.currentPage, props.currentPage + 1]
     }
     end = [props.pages - 1, props.pages]
   }
@@ -77,7 +74,6 @@ const pagesToDisplay = computed(() => {
 })
 
 const handleClick = (page: number) => {
-  currentPage.value = page
   emit('paginate', page)
 }
 </script>
@@ -90,7 +86,7 @@ const handleClick = (page: number) => {
           <button
             @click="handleClick(page)"
             class="py-2 px-4 border rounded-md"
-            :class="page === Number(route.query.page) ? 'bg-yellow-300' : ''"
+            :class="page === props.currentPage ? 'bg-yellow-300' : ''"
           >
             {{ page }}
           </button>
@@ -98,7 +94,7 @@ const handleClick = (page: number) => {
         <button
           v-if="currentPage >= 5"
           class="h-5 w-5 -rotate-90 cursor-pointer self-center"
-          @click="handleClick(currentPage - 1)"
+          @click="handleClick(props.currentPage - 1)"
         >
           <ArrowSvg />
         </button>
@@ -107,7 +103,7 @@ const handleClick = (page: number) => {
             <button
               @click="handleClick(page)"
               class="py-2 px-4 border rounded-md"
-              :class="page === Number(route.query.page) ? 'bg-yellow-300' : ''"
+              :class="page === props.currentPage ? 'bg-yellow-300' : ''"
             >
               {{ page }}
             </button>
@@ -115,16 +111,9 @@ const handleClick = (page: number) => {
         </template>
         <template v-if="pagesToDisplay.end.length">
           <button
-            v-if="currentPage >= pages - 1"
-            class="h-5 w-5 -rotate-90 cursor-pointer self-center"
-            @click="handleClick(currentPage - 1)"
-          >
-            <ArrowSvg />
-          </button>
-          <button
-            v-if="currentPage <= pages - 4"
+            v-if="props.currentPage <= pages - 4"
             class="h-5 w-5 rotate-90 cursor-pointer self-center"
-            @click="handleClick(currentPage + 1)"
+            @click="handleClick(props.currentPage + 1)"
           >
             <ArrowSvg />
           </button>
@@ -132,7 +121,7 @@ const handleClick = (page: number) => {
             <button
               @click="handleClick(page)"
               class="py-2 px-4 border rounded-md"
-              :class="page === Number(route.query.page) ? 'bg-yellow-300' : ''"
+              :class="page === props.currentPage ? 'bg-yellow-300' : ''"
             >
               {{ page }}
             </button>
